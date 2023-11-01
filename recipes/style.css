@@ -1,9 +1,7 @@
-* {
-   margin-left: 10px;
-}
+
 img {
     height: 400px;
-    width: 700px;
+    width: 800px;
 }
 
 p {
@@ -40,3 +38,19 @@ li {
     margin-bottom: 20px;
 
 }
+
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 1500px;
+
+}
+.nav a {
+    text-decoration: none;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: large;
+}
+
